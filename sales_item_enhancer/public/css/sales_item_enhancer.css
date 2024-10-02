@@ -1,0 +1,29 @@
+.kanban-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kanban-card {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.kanban-card img.item-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+.item-info {
+    margin-bottom: 10px;
+}
+
+.item-qty {
+    width: 100%;
+    padding: 5px;
+}
